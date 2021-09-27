@@ -16,6 +16,10 @@
         <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css" />
         <!-- Core theme CSS (includes Bootstrap)-->
         <link href="css/styles.css" rel="stylesheet" />
+         <!-- Bootstrap CSS -->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+        <!-- Bootstrap CSS -->
+        <script src="https://kit.fontawesome.com/e07450b1d6.js" crossorigin="anonymous"></script>
     </head>
     <body id="page-top">
         <!-- Navigation-->
@@ -51,38 +55,54 @@
             </div>
         </section>
         <!-- Portfolio-->
-        <section class="content-section" id="portfolio">
-            <div class="container px-4 px-lg-5">
-                <div class="content-section-heading text-center">
-                    <h3 class="text-secondary mb-0">Portfolio</h3>
-                    <h2 class="mb-5">Projetos Recentes</h2>
+        <section class="content-section" id="portfolio" style="background: #0b0a24;">
+            <div class="container">
+              <div class="row">
+                <div class="col-md-6 d-flex caixa" >
+                  <div class="align-self-center">
+                    <h2 data-anime="right" style="color: #0EC0C1; font-weight: bold;">&lt;Projetos&gt;</h2>
+                    <p data-anime="right" style="color: #fff;">
+                       Clique no botão "projetos" para ver meus trabalhos em uma página separada.
+                    </p>
+                    <a href="projetos.html">
+                      <button class="btnn2">Projetos<span></span></button>
+                    </a>
+
+                     <div class="col-md-12 poster">
+                     <lottie-player src="https://assets7.lottiefiles.com/packages/lf20_oa39rf.json"  background="transparent"  speed="1"  style="width: 300px; height: 300px;" loop  autoplay></lottie-player>
+                     </div>
+                  </div>
                 </div>
-                <div class="row gx-0">
-                    <div class="col-lg-6">
-                        <a class="portfolio-item" href="#!">
-                            <div class="caption">
-                                <div class="caption-content">
-                                    <div class="h2">ETL</div>
-                                    <p class="mb-0">Processo de Limpeza e tratamento de dados em Python</p>
-                                </div>
-                            </div>
-                            <img class="img-fluid" src="assets/img/portfolio1.jpg" alt="..." />
-                        </a>
+                <div class="col-md-6" data-anime="left">
+                <div class="align-self-center">
+                    <div class="row albuns">
+                      <div class="col-md-6 poster">
+                         <img src="assets/img/pandas-logo.jpg" class="img-fluid">
+                        <a href=""><span>
+                          <h5>ETL</h5>
+                      </span></a>
+                      </div>
+                      <div class="col-md-6 poster">
+                        <img src="assets/img/portfolio2.jpg" class="img-fluid">
+                        <a href=""><span><h5>Análise Estatística</h5></span></a>
+                      </div>
                     </div>
-                    <div class="col-lg-6">
-                        <a class="portfolio-item" href="#!">
-                            <div class="caption">
-                                <div class="caption-content">
-                                    <div class="h2">Estatística</div>
-                                    <p class="mb-0">Coleta, organização, análise e registro de dados amostrais em python</p>
-                                </div>
-                            </div>
-                            <img class="img-fluid" src="assets/img/portfolio2.jpg" alt="..." />
-                        </a>
+                    <div class="row albuns">
+                      <div class="col-md-6 poster">
+                        <img src="assets/img/Séries-Temporais-com-Python.png" class="img-fluid">
+                        <a href=""><span><h5>Séries Temporais</h5></span></a>
+                      </div>
+                      <div class="col-md-6 poster">
+                        <img src="assets/img/ML.png" class="img-fluid">
+                        <a href=""><span><h5>Machine Learning</h5></span></a>
+                      </div>
                     </div>
-                </div>
+                  </div>
+              </div>
+              </div>
+ 
             </div>
-        </section>
+          </section>
         <!-- Call to Action-->
         <section class="content-section bg-primary text-white">
             <div id="contact">
@@ -90,10 +110,10 @@
             <div class="container px-4 px-lg-5 text-center">
                <ul class="list-inline mb-5">
                     <li class="list-inline-item">
-                        <a class="social-link rounded-circle text-white mr-3" href="#!"><i class="icon-social-linkedin"></i></a>
+                        <a class="social-link rounded-circle text-white mr-3" href="https://www.linkedin.com/in/fabricio-f-7b7381107/"><i class="icon-social-linkedin"></i></a>
                     </li>
                     <li class="list-inline-item">
-                        <a class="social-link rounded-circle text-white" href="#!"><i class="icon-social-github"></i></a>
+                        <a class="social-link rounded-circle text-white" href="https://github.com/Aldebaran-Argonaut"><i class="icon-social-github"></i></a>
                     </li>
                 </ul> 
                 <p class="text-white mb-1">Copyright &copy; Your Website 2021</p>
